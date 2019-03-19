@@ -27,7 +27,7 @@ msgstr ""
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""
-"<p>Dies ist der öffentliche Schlüssel deines Freifunk-Knotens."
+"Dies ist der öffentliche Schlüssel deines Freifunk-Knotens."
 
 
 msgid "gluon-config-mode:novpn"
