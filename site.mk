@@ -7,9 +7,9 @@
 GLUON_SITE_PACKAGES := \
     gluon-mesh-batman-adv-14 \
     gluon-respondd \
-    gluon-autoupdater \
+    -gluon-autoupdater \
     gluon-config-mode-autoupdater \
-    -ffho-autoupdater-wifi-fallback \
+    ffho-autoupdater-wifi-fallback \
     gluon-config-mode-contact-info \
     gluon-config-mode-core \
     gluon-config-mode-geo-location \
