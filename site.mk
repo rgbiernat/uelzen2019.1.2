@@ -9,6 +9,7 @@ GLUON_SITE_PACKAGES := \
     gluon-respondd \
     gluon-autoupdater \
     gluon-config-mode-autoupdater \
+    ffho-autoupdater-wifi-fallback \
     gluon-config-mode-contact-info \
     gluon-config-mode-core \
     gluon-config-mode-geo-location \
