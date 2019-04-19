@@ -1,4 +1,4 @@
-GGLUON_SITE_FEEDS='ffho'
+GLUON_SITE_FEEDS='ffho'
 
 PACKAGES_FFHO_REPO=https://github.com/FreifunkHochstift/ffho-packages.git
 PACKAGES_FFHO_BRANCH=master

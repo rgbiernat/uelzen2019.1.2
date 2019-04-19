@@ -4,31 +4,39 @@
 #		specify gluon/openwrt packages to include here
 #		The gluon-mesh-batman-adv-* package must come first because of the dependency resolution
 
+
+GLUON_FEATURES := \
+	mesh-batman-adv-14 \
+	respondd \
+	autoupdater \
+	config-mode-autoupdater \
+	config-mode-contact-info \
+	config-mode-core \
+	config-mode-geo-location \
+	config-mode-geo-location-osm \
+	config-mode-hostname \
+	config-mode-mesh-vpn \
+	ebtables-filter-multicast \
+	ebtables-filter-ra-dhcp \
+	mesh-vpn-fastd \
+	radvd \
+	setup-mode \
+	status-page \
+	web-advanced \
+	web-private-wifi \
+	web-wizard
+
 GLUON_SITE_PACKAGES := \
-    gluon-mesh-batman-adv-14 \
-    gluon-respondd \
-    -gluon-autoupdater \
-    gluon-config-mode-autoupdater \
-    ffho-autoupdater-wifi-fallback \
-    gluon-config-mode-contact-info \
-    gluon-config-mode-core \
-    gluon-config-mode-geo-location \
-    gluon-config-mode-hostname \
-    gluon-config-mode-mesh-vpn \
-    gluon-ebtables-filter-multicast \
-    gluon-ebtables-filter-ra-dhcp \
-    gluon-web-admin \
-    gluon-web-autoupdater \
-    gluon-web-network \
-    gluon-web-wifi-config \
-    gluon-web-private-wifi \
-    gluon-mesh-vpn-fastd \
-    gluon-radvd \
-    gluon-setup-mode \
-    gluon-status-page \
-    haveged \
-    iptables \
-    iwinfo
+	-gluon-web-autoupdater \
+	ffho-autoupdater-wifi-fallback \
+	ffho-web-autoupdater \
+	haveged \
+	iptables \
+	iwinfo \
+	respondd-module-airtime
+
+# Wenn FFHO-web-autoupdater weg ist, dann web-autoupdater einschalten!
+#
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
